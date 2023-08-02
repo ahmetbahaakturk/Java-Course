@@ -10,7 +10,6 @@ public class Main {
 
     public static void main(String[] args) {
         menu();
-
     }
 
     static void menu() {
@@ -29,9 +28,7 @@ public class Main {
                     highestScore();
                     break;
             }
-
         }
-
     }
 
     static void play() {
