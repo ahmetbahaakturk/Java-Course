@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int base, exp;
 
-        System.out.print("Number: ");
+        System.out.print("Base: ");
         base = scanner.nextInt();
 
         System.out.print("Exponent: ");
