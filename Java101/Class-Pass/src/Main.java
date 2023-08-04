@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
         int math, physics, turkish, chemistry, music;
 
         System.out.println("Please Enter Your Notes In Order");
@@ -33,7 +33,6 @@ public class Main {
     }
 
     public static int isValid(int a) {
-        Scanner scanner = new Scanner(System.in);
         while (true) {
             if (a >= 0 && a <= 100) {
                 break;
