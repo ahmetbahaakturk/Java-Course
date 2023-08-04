@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         int n, r;
 
         System.out.print("(n): ");
@@ -11,7 +10,6 @@ public class Main {
 
         System.out.print("(r): ");
         r = scanner.nextInt();
-
 
         System.out.println(combination(n, r));
     }
