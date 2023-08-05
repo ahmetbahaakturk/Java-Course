@@ -8,6 +8,8 @@ public class Main {
         System.out.println(armstrongControl(scanner.nextInt()));
     }
 
+    /*-------------Digit Counter-------------*/
+
     public static int topDigit(int num) {
         int topDigit = 0;
         while (num > 0) {
@@ -16,6 +18,8 @@ public class Main {
         }
         return topDigit;
     }
+
+    /*-------------Armstrong Number Control-------------*/
 
     static String armstrongControl(int num) {
         int originalNumber, base, finalNum = 0;
