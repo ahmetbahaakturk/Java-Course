@@ -8,29 +8,19 @@ public class Main {
         diamondShape(scanner.nextInt());
     }
 
+    /*------------Diamond Shape------------*/
+
     static void diamondShape(int row) {
-        int space = row;
-
-        for (int i = 1; i <= row; ++i) {
+        int space = row - 1;
+        for (int i = 1; i <= (2 * row) - 1; ++i) {
+            for (int j = 1; j <= Math.abs(space); ++j) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * (row - Math.abs(space)) - 1; ++j) {
+                System.out.print("*");
+            }
+            System.out.println();
             --space;
-            for (int j = 1; j <= space; ++j) {
-                System.out.print(" ");
-            }
-            for (int j = 1; j <= (2 * i) - 1; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        for (int i = row - 1; i > 0; --i) {
-            ++space;
-            for (int j = 1; j <= space; ++j) {
-                System.out.print(" ");
-            }
-            for (int j = 1; j <= (2 * i) - 1; ++j) {
-                System.out.print("*");
-            }
-            System.out.println();
         }
     }
 }
