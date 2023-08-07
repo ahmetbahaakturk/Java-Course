@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ATM/ATM.iml" filepath="$PROJECT_DIR$/ATM/ATM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Air-Temperature-Activities/Air-Temperature-Activities.iml" filepath="$PROJECT_DIR$/Air-Temperature-Activities/Air-Temperature-Activities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Armstrong/Armstrong.iml" filepath="$PROJECT_DIR$/Armstrong/Armstrong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BMI-Calculator/BMI-Calculator.iml" filepath="$PROJECT_DIR$/BMI-Calculator/BMI-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chinese-Zodiac/Chinese-Zodiac.iml" filepath="$PROJECT_DIR$/Chinese-Zodiac/Chinese-Zodiac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Circle-Circumference-Area-Calculator/Circle-Circumference-Area-Calculator.iml" filepath="$PROJECT_DIR$/Circle-Circumference-Area-Calculator/Circle-Circumference-Area-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class-Pass/Class-Pass.iml" filepath="$PROJECT_DIR$/Class-Pass/Class-Pass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Combination-Finder/Combination-Finder.iml" filepath="$PROJECT_DIR$/Combination-Finder/Combination-Finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Diamond-Shape/Diamond-Shape.iml" filepath="$PROJECT_DIR$/Diamond-Shape/Diamond-Shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exponentiation/Exponentiation.iml" filepath="$PROJECT_DIR$/Exponentiation/Exponentiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Find-Even-Numbers/Find-Even-Numbers.iml" filepath="$PROJECT_DIR$/Find-Even-Numbers/Find-Even-Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flight-Price/Flight-Price.iml" filepath="$PROJECT_DIR$/Flight-Price/Flight-Price.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GPA-Calculator/GPA-Calculator.iml" filepath="$PROJECT_DIR$/GPA-Calculator/GPA-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grocery-Cashier/Grocery-Cashier.iml" filepath="$PROJECT_DIR$/Grocery-Cashier/Grocery-Cashier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Harmonic-Series/Harmonic-Series.iml" filepath="$PROJECT_DIR$/Harmonic-Series/Harmonic-Series.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Horoscope-Finder/Horoscope-Finder.iml" filepath="$PROJECT_DIR$/Horoscope-Finder/Horoscope-Finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hypotenuse-Calculator/Hypotenuse-Calculator.iml" filepath="$PROJECT_DIR$/Hypotenuse-Calculator/Hypotenuse-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java101.iml" filepath="$PROJECT_DIR$/.idea/Java101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leap-Year/Leap-Year.iml" filepath="$PROJECT_DIR$/Leap-Year/Leap-Year.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Number-Power-Finding/Number-Power-Finding.iml" filepath="$PROJECT_DIR$/Number-Power-Finding/Number-Power-Finding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reverse-Sorting/Reverse-Sorting.iml" filepath="$PROJECT_DIR$/Reverse-Sorting/Reverse-Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sum-Of-Even-Numbers/Sum-Of-Even-Numbers.iml" filepath="$PROJECT_DIR$/Sum-Of-Even-Numbers/Sum-Of-Even-Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taxed-Price-Calculator/Taxed-Price-Calculator.iml" filepath="$PROJECT_DIR$/Taxed-Price-Calculator/Taxed-Price-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taximeter/Taximeter.iml" filepath="$PROJECT_DIR$/Taximeter/Taximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User-Login/User-Login.iml" filepath="$PROJECT_DIR$/User-Login/User-Login.iml" />
+    </modules>
+  </component>
+</project>
