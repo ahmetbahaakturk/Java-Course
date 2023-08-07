@@ -14,6 +14,8 @@ public class Main {
         login();
     }
 
+    /*-----------Login Screen-----------*/
+
     static void login() {
         System.out.println("\nLOGIN SCREEN");
         int right = 4;
@@ -37,6 +39,8 @@ public class Main {
             }
         } while (true);
     }
+
+    /*-----------ATM Transactions-----------*/
 
     static void atmTransactions() {
         boolean openMenu = true;
