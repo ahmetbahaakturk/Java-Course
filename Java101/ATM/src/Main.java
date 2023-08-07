@@ -5,6 +5,11 @@ public class Main {
     static String userName, password;
     static int balance = 0;
 
+    /*
+    User Name = "name"
+    Password = "password"
+     */
+
     public static void main(String[] args) {
         login();
     }
