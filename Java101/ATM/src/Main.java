@@ -32,21 +32,19 @@ public class Main {
                 System.out.println("\nYOUR ACCOUNT HAS BEEN BLOCKED!");
                 break;
             } else {
-                System.out.println("Invalid Data Entry, Enter Again!");
+                System.out.println("Invalid Data Entry, Try Again!");
                 --right;
             }
         } while (true);
     }
 
     static void atmTransactions() {
-        int op;
         boolean openMenu = true;
 
         while (openMenu) {
             System.out.print("\nTRANSACTION MENU\n1-Deposit\n2-Withdrawal\n3-Balance\n4-Exit\nSelect: ");
-            op = scanner.nextInt();
 
-            switch (op) {
+            switch (scanner.nextInt()) {
                 case 1 -> {
                     System.out.print("\nDeposit Amount: ");
                     balance += scanner.nextInt();
@@ -63,7 +61,6 @@ public class Main {
                     }
                 }
                 case 3 -> System.out.println("\nBalance: " + balance);
-
                 case 4 -> {
                     scanner.nextLine();
                     login();
