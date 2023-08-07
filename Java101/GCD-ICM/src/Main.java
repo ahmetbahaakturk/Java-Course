@@ -21,26 +21,17 @@ public class Main {
     /*---------------GCD Calculator---------------*/
 
     static int GCD(int num1, int num2) {
-        int i = 1, gcd = 1;
-
-        while (i <= num1) {
-            if (num1 % i == 0 && num2 % i == 0) {
-                gcd = i;
-            }
-            ++i;
+        while (num2 != 0) {
+            int temp = num2;
+            num2 = num1 % num2;
+            num1 = temp;
         }
-        return gcd;
+        return num1;
     }
 
     /*---------------ICM Calculator---------------*/
 
     static int ICM(int num1, int num2) {
-        int i = 1;
-        while (true) {
-            if ((num2 * i) % num1 == 0) {
-                return num2 * i;
-            }
-            ++i;
-        }
+        return (num1 * num2) / GCD(num1, num2);
     }
 }
