@@ -6,7 +6,7 @@ public class Main {
     static int balance = 0;
 
     /*
-    User Name = "name"
+    UserName = "name"
     Password = "password"
      */
 
