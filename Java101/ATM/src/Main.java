@@ -13,11 +13,6 @@ public class Main {
         System.out.println("\nLOGIN SCREEN");
         int right = 4;
         do {
-
-            if (right == 0) {
-                System.out.println("YOUR ACCOUNT HAS BEEN BLOCKED!");
-                break;
-            }
             System.out.print("Username: ");
             userName = scanner.nextLine();
 
@@ -25,14 +20,16 @@ public class Main {
             password = scanner.nextLine();
 
             if (((userName.equals("name")) && password.equals("password"))) {
-                System.out.println("You Logged In!");
                 atmTransactions();
                 break;
-            } else {
-                System.out.println("\nInvalid Data Entry Please Enter Again!");
             }
-
-            --right;
+            if (right == 1) {
+                System.out.println("\nYOUR ACCOUNT HAS BEEN BLOCKED!");
+                break;
+            } else {
+                System.out.println("Invalid Data Entry, Enter Again!");
+                --right;
+            }
         } while (true);
     }
 
@@ -41,21 +38,21 @@ public class Main {
         boolean openMenu = true;
 
         while (openMenu) {
-            System.out.print("\nTRANSACTION MENU\n1-Deposit\n2-Withdrawal\n3-Balance\n4-Exit\nOperation Number: ");
+            System.out.print("\nTRANSACTION MENU\n1-Deposit\n2-Withdrawal\n3-Balance\n4-Exit\nSelect: ");
             op = scanner.nextInt();
 
             switch (op) {
                 case 1 -> {
                     System.out.print("\nDeposit Amount: ");
                     balance += scanner.nextInt();
-                    System.out.println("\nNew Balance: " + balance);
+                    System.out.println("\nNEW BALANCE: " + balance);
                 }
                 case 2 -> {
                     System.out.print("\nWithdrawal Amount: ");
                     int withdrawal = scanner.nextInt();
                     if (withdrawal <= balance && withdrawal > 0) {
                         balance -= withdrawal;
-                        System.out.println("\nNew Balance: " + balance);
+                        System.out.println("\nNEW BALANCE: " + balance);
                     } else {
                         System.out.println("\nInsufficient Balance Or Not Positive Number");
                     }
