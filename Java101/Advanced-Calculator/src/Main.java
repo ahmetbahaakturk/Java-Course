@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.print("1 - Summation\b - Deduction\n3 - Multiplication\n4 - Division\n5 - Power\n6 - Factorial\n7 - Mod\n8 - Rectangle Area and Circumference\nSelect: ");
+        enterTwoDouble();
         switch (scanner.nextInt()) {
             case 1 -> {
                 enterTwoDouble();
