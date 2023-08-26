@@ -1,0 +1,14 @@
+--What is the average of the values in the rental_rate column in the movie table?
+SELECT (ROUND (AVG(rental_rate), 3)) FROM film;
+
+--How many of the movies in the movie table start with the character 'C'?
+SELECT COUNT(*) FROM film
+WHERE title LIKE 'C%';
+
+--How many minutes is the longest movie in the movie table with a rental_rate equal to 0.99?
+SELECT MAX(length) FROM film
+WHERE rental_rate = 0.99;
+
+--How many different replacement_cost values are in the movie table for movies with a length greater than 150 minutes?
+SELECT COUNT(DISTINCT replacement_cost) FROM film
+WHERE length > 150;
