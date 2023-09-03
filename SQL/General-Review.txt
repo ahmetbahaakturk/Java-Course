@@ -1,0 +1,37 @@
+1. From the movie table, list the 4 longest movies starting with the character 'K' and the 4 movies with the lowest replacenet_cost.
+
+-SELECT * FROM film
+-WHERE title LIKE 'K%'
+-ORDER BY length DESC, replacement_cost ASC
+-LIMIT 4;
+
+
+2. Which rating category in the movie chart has the highest number of movies in it?
+
+-SELECT RATING, COUNT(*) FROM film
+-GROUP BY RATING
+-ORDER BY COUNT(*) DESC
+-LIMIT 1;
+
+
+3. What is the name of the customer who made the most purchases in the cutomer table?
+
+-SELECT COUNT(*), customer.first_name, customer.last_name FROM payment
+-JOIN customer ON customer.customer_id = payment.customer_id
+-GROUP BY payment.customer_id, customer.first_name, customer.last_name
+-ORDER BY SUM(amount) DESC
+-LIMIT 1;
+
+
+4. List the category names and the number of movies per category in the category table.
+
+-SELECT COUNT(*), category.name FROM category
+-JOIN film_category on film_category.category_id=category.category_id
+-GROUP BY category.name
+-ORDER BY COUNT(*);
+
+
+5. In the movie table, how many movies have at least 4 'e' or 'E' characters in the title?
+
+-SELECT COUNT(*) FROM film
+-WHERE title ILIKE '%e%e%e%e%';
