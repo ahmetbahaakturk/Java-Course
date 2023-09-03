@@ -1,0 +1,29 @@
+1. In the film table, the film length is shown in the length column. How many movies are longer than the average film length?
+
+-SELECT * FROM film
+-WHERE film.length > (SELECT AVG(film.length) FROM film);
+
+
+2. How many film in the film table have the highest rental_rate?
+
+-SELECT * FROM film
+-WHERE rental_rate = ANY
+-(
+-	SELECT MAX(rental_rate) FROM film
+-);
+
+
+3. In the film table, list the films with the lowest rental_rate and the lowest replacement_cost.
+
+-SELECT * FROM film
+-WHERE 
+-rental_rate = (SELECT MIN(rental_rate) FROM film)
+-AND
+-replacement_cost = (SELECT MIN(replacement_cost) FROM film);
+
+
+4. List the customers who made the highest number of purchases in the payment table.
+
+-SELECT customer_id, COUNT(*) FROM payment
+-GROUP BY customer_id
+-ORDER BY COUNT(*) DESC;
