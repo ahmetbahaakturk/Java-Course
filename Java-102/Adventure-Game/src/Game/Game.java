@@ -44,7 +44,7 @@ public class Game {
             if (player.getCharacter().getHealth() == 0) {
                 System.out.println("\nYOU DIED! GAME OVER");
                 break;
-            } else if (player.hasFireWood == true && player.hasFood == true && player.hasWater == true) {
+            } else if (player.hasFireWood && player.hasFood && player.hasWater) {
                 System.out.println("\nYOU HAVE COLLECTED ALL ITEMS! THE GAME IS FINISHED");
                 break;
             }
