@@ -5,4 +5,3 @@ public class Pistol extends Weapon {
         super("Pistol", 2, 25);
     }
 }
-

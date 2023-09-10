@@ -2,15 +2,9 @@ package Location.SafeLocation;
 
 import Entity.Player.Player;
 import Location.Location;
-import Tool.*;
-import Tool.Armor.Armor;
-import Tool.Armor.HeavyArmor;
-import Tool.Armor.LightArmor;
-import Tool.Armor.MediumArmor;
-import Tool.Weapon.Pistol;
-import Tool.Weapon.Rifle;
-import Tool.Weapon.Sword;
-import Tool.Weapon.Weapon;
+import Tool.Tool;
+import Tool.Armor.*;
+import Tool.Weapon.*;
 
 import java.util.Scanner;
 

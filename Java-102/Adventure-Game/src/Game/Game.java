@@ -1,12 +1,8 @@
 package Game;
 
 import Entity.Player.Player;
-import Location.BattleLocation.Cave;
-import Location.BattleLocation.Forest;
-import Location.BattleLocation.Mine;
-import Location.BattleLocation.River;
-import Location.SafeLocation.SafeHouse;
-import Location.SafeLocation.Workshop;
+import Location.BattleLocation.*;
+import Location.SafeLocation.*;
 
 import java.util.Scanner;
 
