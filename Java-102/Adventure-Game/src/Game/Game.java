@@ -7,8 +7,6 @@ import Location.BattleLocation.Mine;
 import Location.BattleLocation.River;
 import Location.SafeLocation.SafeHouse;
 import Location.SafeLocation.Workshop;
-import Tool.Armor.HeavyArmor;
-import Tool.Weapon.Rifle;
 
 import java.util.Scanner;
 
@@ -58,8 +56,6 @@ public class Game {
                 case "5" -> workshop.enter();
                 case "6" -> safeHouse.enter();
                 case "7" -> inventory();
-                case "moneyhack" -> moneyHack();
-                case "armedman" -> armedMan();
                 default -> System.out.println("INVALID ENTRY!");
             }
         }
@@ -80,16 +76,5 @@ public class Game {
         System.out.println("Balance: " + player.getCharacter().getMoney() + "\n-----------------------------------------");
         System.out.print("Press Enter to Quit");
         scanner.nextLine();
-    }
-
-    public void moneyHack() {
-        player.getCharacter().setMoney(player.getCharacter().getMoney() + 10000);
-        System.out.println("CHEAT ACTIVATED!");
-    }
-
-    public void armedMan() {
-        player.getCharacter().setWeapon(new Rifle());
-        player.getCharacter().setArmor(new HeavyArmor());
-        System.out.println("CHEAT ACTIVATED!");
     }
 }
