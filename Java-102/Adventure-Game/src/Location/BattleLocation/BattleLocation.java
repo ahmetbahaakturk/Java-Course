@@ -43,7 +43,7 @@ public abstract class BattleLocation extends Location {
         System.out.println("\nThere are " + monsterNum + " " + monster.getName() + "s Inside!!");
         for (int i = 1; i <= monsterNum; i++) {
             monster.setHealth(monsterMaxHealth);
-            System.out.println("\n---------------" + i + ". " + monster.getName() + "---------------");
+            System.out.println("\n---------------" + i + ". " + monster.getName() + "----------------");
             System.out.println(player.getNickName() + ": " + player.getCharacter().getHealth() + " <> " + monster.getName() + ": " + monster.getHealth());
             playerHitFirst = this.random.nextBoolean();
 
