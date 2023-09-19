@@ -2,22 +2,22 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class GenericList<T> {
-    private Object[] genericList;
+    private T[] genericList;
     private int capacity;
 
     GenericList() {
         this.capacity = 10;
-        this.genericList = new Object[this.capacity];
+        this.genericList = (T[]) new Object[capacity];
     }
 
     GenericList(int capacity) {
         this.capacity = capacity;
-        this.genericList = new Object[capacity];
+        this.genericList = (T[]) new Object[capacity];
     }
 
     public int size() {
         int size = 0;
-        for (Object obj : genericList) {
+        for (T obj : genericList) {
             if (obj == null) {
                 break;
             }
@@ -43,13 +43,13 @@ public class GenericList<T> {
     }
 
     private void expandList() {
-        Object[] newList = new Object[capacity * 2];
+        T[] newList = (T[]) new Object[capacity * 2];
         if (capacity >= 0) System.arraycopy(genericList, 0, newList, 0, capacity);
         capacity *= 2;
         genericList = newList;
     }
 
-    public Object get(int index) {
+    public T get(int index) {
         if (isOutOfBounds(index)) return null;
         return genericList[index];
     }
@@ -105,7 +105,7 @@ public class GenericList<T> {
         }
     }
 
-    public Object[] toArray() {
+    public T[] toArray() {
         return genericList;
     }
 
@@ -116,8 +116,8 @@ public class GenericList<T> {
         return false;
     }
 
-    public ArrayList<Object> MyList(int base, int bound) {
-        ArrayList<Object> newList = new ArrayList<>(bound - base + 1);
+    public ArrayList<T> MyList(int base, int bound) {
+        ArrayList<T> newList = new ArrayList<>(bound - base + 1);
         newList.addAll(Arrays.asList(genericList).subList(base, bound + 1));
         return newList;
     }
