@@ -1,8 +1,8 @@
 public class Book implements Comparable<Book> {
-    private String name;
-    private String authorName;
-    private String releaseDate;
-    private int pageNumber;
+    private final String name;
+    private final String authorName;
+    private final String releaseDate;
+    private final int pageNumber;
 
     Book(String name, String authorName, String releaseDate, int pageNumber) {
         this.name = name;
@@ -16,11 +16,11 @@ public class Book implements Comparable<Book> {
         return this.name.compareTo(o.name);
     }
 
-    public String getName() {
-        return name;
-    }
-
     public int getPageNumber() {
         return pageNumber;
+    }
+
+    public String toString() {
+        return "Name: " + name + "\nAuthor: " + authorName + "\nRelease Date: " + releaseDate + "\nPage: " + pageNumber + "\n--------------------------------------";
     }
 }

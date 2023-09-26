@@ -15,10 +15,9 @@ public class Main {
         bookSet.add(book3);
         bookSet.add(book4);
         bookSet.add(book5);
-
-        System.out.println("Sort Books by Alphabet");
+        System.out.println("Sorted by Alphabetically\n**************************************");
         for (Book book : bookSet) {
-            System.out.println("Name: " + book.getName());
+            System.out.println(book.toString());
         }
 
         System.out.println();
@@ -31,9 +30,10 @@ public class Main {
         bookSet2.add(book4);
         bookSet2.add(book5);
 
-        System.out.println("Sort Books by Numbers of Page");
+        System.out.println("Sorted by Number of Pages\n**************************************");
+
         for (Book book : bookSet2) {
-            System.out.println("Name: " + book.getName() + " | Numbers of Page: " + book.getPageNumber());
+            System.out.println(book.toString());
         }
 
     }
