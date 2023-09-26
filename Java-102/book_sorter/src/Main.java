@@ -15,7 +15,7 @@ public class Main {
         bookSet.add(book3);
         bookSet.add(book4);
         bookSet.add(book5);
-        System.out.println("Sorted by Alphabetically\n**************************************");
+        System.out.println("Sorted by Book Name\n**************************************");
         for (Book book : bookSet) {
             System.out.println(book.toString());
         }
