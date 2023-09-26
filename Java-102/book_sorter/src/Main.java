@@ -35,6 +35,5 @@ public class Main {
         for (Book book : bookSet2) {
             System.out.println(book.toString());
         }
-
     }
 }
