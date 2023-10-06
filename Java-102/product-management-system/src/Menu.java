@@ -75,21 +75,11 @@ public class Menu {
 
     public static void reIdAllList() {
         int i = 0;
-        brands.sort(new Comparator<Brand>() {
-            @Override
-            public int compare(Brand o1, Brand o2) {
-                return o1.getName().compareTo(o2.getName());
-            }
-        });
+        brands.sort(Comparator.comparing(Brand::getName));
         for (Brand brand1 : brands) brand1.setId(++i);
 
         i = 0;
-        categories.sort(new Comparator<Category>() {
-            @Override
-            public int compare(Category o1, Category o2) {
-                return o1.getName().compareTo(o2.getName());
-            }
-        });
+        categories.sort(Comparator.comparing(Category::getName));
         for(Category category : categories) {
             category.setId(++i);
         }

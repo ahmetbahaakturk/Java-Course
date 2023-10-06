@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Product {
     private final LinkedList<String> specValues;
-    private Brand brand;
 
     Product(LinkedList<String> specs, LinkedList<Brand> brands) {
         this.specValues = new LinkedList<>();
@@ -21,13 +20,16 @@ public class Product {
 
         System.out.print("Select Brand ID: ");
         int id = Input.input() - 1;
-        this.brand = brands.get(id);
         this.specValues.set(1, brands.get(id).getName());
 
         for (int i = 2; i < specs.size(); i++) {
             System.out.print(specs.get(i) + ": ");
             this.specValues.add(scanner.nextLine());
         }
+    }
+
+    public int getId() {
+        return Integer.parseInt(specValues.get(0));
     }
 
     public LinkedList<String> getSpecValues() {
