@@ -1,7 +1,9 @@
 package Insurance;
 
 import Input.Input;
+
 import java.util.Comparator;
+
 import Account.Account;
 
 public class InsuranceManager {
@@ -27,7 +29,7 @@ public class InsuranceManager {
     }
 
     public static void printInsurances(Account account) {
-        for(Insurance insurance : account.getInsurances()) {
+        for (Insurance insurance : account.getInsurances()) {
             System.out.println(insurance.toString());
         }
     }

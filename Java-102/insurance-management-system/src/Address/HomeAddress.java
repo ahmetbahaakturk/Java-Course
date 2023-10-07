@@ -1,6 +1,6 @@
 package Address;
 
-public class HomeAddress implements Address{
+public class HomeAddress implements Address {
     private final String name;
     private final String address;
 
@@ -12,11 +12,6 @@ public class HomeAddress implements Address{
     @Override
     public String getName() {
         return name;
-    }
-
-    @Override
-    public String getAddress() {
-        return address;
     }
 
     @Override

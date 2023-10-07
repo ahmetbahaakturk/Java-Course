@@ -27,19 +27,22 @@ public class AddressManager {
             case 1 -> addresses.add(new HomeAddress(name, address));
             case 2 -> addresses.add(new BusinessAddress(name, address));
         }
+        reList(addresses);
     }
 
     public static void removeAddress(ArrayList<Address> addresses) {
         printAddresses(addresses);
-        System.out.print("Remove Address by Enter Number: ");
-        int addressIndex = Input.nextInt() - 1;
+        System.out.print("Enter Number or Press Q to Back: ");
+        int addressIndex = Input.nextInt(1, addresses.size() + 1) - 1;
         addresses.remove(addressIndex);
     }
 
     public static void printAddresses(ArrayList<Address> addresses) {
         int i = 0;
-        System.out.println("-------------------Addresses-------------------");
-        for (Address address : addresses) System.out.println((++i) + "-" + address.toString());
+        System.out.println("------------------------Addresses------------------------");
+        for (Address address : addresses)
+            System.out.println((++i) + "-" + address.toString() +
+                    "\n---------------------------------------------------------");
     }
 
     private static void reList(ArrayList<Address> addresses) {

@@ -1,19 +1,15 @@
 package Account;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 
-import Input.Input;
-import Insurance.*;
+import Insurance.Insurance;
 
 public abstract class Account implements Comparable<Account> {
     private final double rate;
-    private AuthenticationStatus authenticationStatus;
     private final User user;
     private final ArrayList<Insurance> insurances;
 
-    Account(AuthenticationStatus authenticationStatus, User user, double rate) {
-        this.authenticationStatus = authenticationStatus;
+    Account(User user, double rate) {
         this.user = user;
         this.insurances = new ArrayList<>();
         this.rate = rate;
@@ -21,14 +17,6 @@ public abstract class Account implements Comparable<Account> {
 
     public void showInfo() {
         System.out.println(user.toString());
-    }
-
-    public AuthenticationStatus getAuthenticationStatus() {
-        return authenticationStatus;
-    }
-
-    public void setAuthenticationStatus(AuthenticationStatus authenticationStatus) {
-        this.authenticationStatus = authenticationStatus;
     }
 
     public User getUser() {

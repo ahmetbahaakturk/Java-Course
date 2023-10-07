@@ -10,17 +10,21 @@ public class AccountManager {
     private static final TreeSet<Account> accounts = new TreeSet<>();
     private static Account loggedInAccount = null;
 
-    public static void logIn() {
+    public static boolean logIn() {
         String email;
         String password;
 
         do {
-            System.out.println("--------Log In--------");
+            System.out.println("------------Log In------------");
             System.out.print("E-Mail: ");
             email = Input.nextLine();
+            if (email.equals("q") || email.equals("Q")) return false;
             System.out.print("Password: ");
             password = Input.nextLine();
+            if (password.equals("q") || password.equals("Q")) return false;
         } while (!(isLoggedIn(email, password)));
+
+        return true;
     }
 
     public static void createAccount() {
@@ -31,36 +35,47 @@ public class AccountManager {
         String job;
         int age;
 
-        System.out.println("""
-                ------Account Type------
-                1-Individual
-                2-Enterprise
-                Enter Number:\s""");
+        createAccountLabel:
+        while (true) {
+            System.out.print("""
+                                    
+                    -------------Account Type-------------
+                    1-Individual
+                    2-Enterprise
+                    --------------------------------------
+                    Enter Number:\s""");
 
-        int accountTypeNum = Input.nextInt(1, 3);
+            int accountTypeNum = Input.nextInt(1, 3);
 
-        System.out.print("E-Mail: ");
-        email = Input.nextLine();
-        System.out.print("Password: ");
-        password = Input.nextLine();
-        System.out.print("Name: ");
-        name = Input.nextLine();
-        System.out.print("Surname: ");
-        surName = Input.nextLine();
-        System.out.print("Job: ");
-        job = Input.nextLine();
-        System.out.print("Age: ");
-        age = Input.nextInt();
+            System.out.print("E-Mail: ");
+            email = Input.nextLine();
 
+            for (Account account : accounts) {
+                if (account.getUser().getEmail().equals(email)) {
+                    System.out.println("This Account Already Exists!!!");
+                    continue createAccountLabel;
+                }
+            }
 
-        switch (accountTypeNum) {
-            case 1 ->
-                    accounts.add(new Individual(AuthenticationStatus.SUCCESS, new User(name, surName, email, password, job, getDate(), age)));
-            case 2 ->
-                    accounts.add(new Enterprise(AuthenticationStatus.SUCCESS, new User(name, surName, email, password, job, getDate(), age)));
+            System.out.print("Password: ");
+            password = Input.nextLine();
+            System.out.print("Name: ");
+            name = Input.nextLine();
+            System.out.print("Surname: ");
+            surName = Input.nextLine();
+            System.out.print("Job: ");
+            job = Input.nextLine();
+            System.out.print("Age: ");
+            age = Input.nextInt();
+
+            switch (accountTypeNum) {
+                case 1 -> accounts.add(new Individual(new User(name, surName, email, password, job, getDate(), age)));
+                case 2 -> accounts.add(new Enterprise(new User(name, surName, email, password, job, getDate(), age)));
+            }
+
+            System.out.println("New Account Have Created!");
+            break;
         }
-
-        System.out.println("New Account Have Created!");
     }
 
     public static String getDate() {
@@ -73,7 +88,6 @@ public class AccountManager {
         for (Account account : accounts) {
             if (account.getUser().getEmail().equals(email)) {
                 if (account.getUser().getPassword().equals(password)) {
-                    account.setAuthenticationStatus(AuthenticationStatus.SUCCESS);
                     account.getUser().setLastLogInDate(getDate());
                     loggedInAccount = account;
                     System.out.println("You Logged In!");
@@ -87,5 +101,9 @@ public class AccountManager {
 
     public static Account getLoggedInAccount() {
         return loggedInAccount;
+    }
+
+    public static void setNullLoggedIntAccount() {
+        loggedInAccount = null;
     }
 }

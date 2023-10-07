@@ -15,11 +15,6 @@ public class BusinessAddress implements Address {
     }
 
     @Override
-    public String getAddress() {
-        return address;
-    }
-
-    @Override
     public String toString() {
         return name + "(Business Address)" + "\n" + address;
     }

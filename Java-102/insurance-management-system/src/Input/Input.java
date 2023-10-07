@@ -55,10 +55,4 @@ public class Input {
     public static String nextLine() {
         return scanner.nextLine();
     }
-
-    public static String next() {
-        String next = scanner.next();
-        scanner.nextLine();
-        return next;
-    }
 }
