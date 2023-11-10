@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-101/ATM/ATM.iml" filepath="$PROJECT_DIR$/Java-101/ATM/ATM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Advanced-Calculator/Advanced-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/Advanced-Calculator/Advanced-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/Adventure-Game/Adventure-Game.iml" filepath="$PROJECT_DIR$/Java-102/Adventure-Game/Adventure-Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Air-Temperature-Activities/Air-Temperature-Activities.iml" filepath="$PROJECT_DIR$/Java-101/Air-Temperature-Activities/Air-Temperature-Activities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Armstrong/Armstrong.iml" filepath="$PROJECT_DIR$/Java-101/Armstrong/Armstrong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Array-Frequency/Array-Frequency.iml" filepath="$PROJECT_DIR$/Java-101/Array-Frequency/Array-Frequency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Array-Sorting/Array-Sorting.iml" filepath="$PROJECT_DIR$/Java-101/Array-Sorting/Array-Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/BMI-Calculator/BMI-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/BMI-Calculator/BMI-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Boxing-Game/Boxing-Game.iml" filepath="$PROJECT_DIR$/Java-101/Boxing-Game/Boxing-Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Java-101/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Chinese-Zodiac/Chinese-Zodiac.iml" filepath="$PROJECT_DIR$/Java-101/Chinese-Zodiac/Chinese-Zodiac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Circle-Circumference-Area-Calculator/Circle-Circumference-Area-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/Circle-Circumference-Area-Calculator/Circle-Circumference-Area-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Class-Pass/Class-Pass.iml" filepath="$PROJECT_DIR$/Java-101/Class-Pass/Class-Pass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Combination-Finder/Combination-Finder.iml" filepath="$PROJECT_DIR$/Java-101/Combination-Finder/Combination-Finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Diamond-Shape/Diamond-Shape.iml" filepath="$PROJECT_DIR$/Java-101/Diamond-Shape/Diamond-Shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Duplicate-Numbers/Duplicate-Numbers.iml" filepath="$PROJECT_DIR$/Java-101/Duplicate-Numbers/Duplicate-Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Exponentiation/Exponentiation.iml" filepath="$PROJECT_DIR$/Java-101/Exponentiation/Exponentiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Fibonacci/Fibonacci.iml" filepath="$PROJECT_DIR$/Java-101/Fibonacci/Fibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Find-Even-Numbers/Find-Even-Numbers.iml" filepath="$PROJECT_DIR$/Java-101/Find-Even-Numbers/Find-Even-Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Flight-Price/Flight-Price.iml" filepath="$PROJECT_DIR$/Java-101/Flight-Price/Flight-Price.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/GCD-ICM/GCD-ICM.iml" filepath="$PROJECT_DIR$/Java-101/GCD-ICM/GCD-ICM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/GPA-Calculator/GPA-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/GPA-Calculator/GPA-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/Generic-List/Generic-List.iml" filepath="$PROJECT_DIR$/Java-102/Generic-List/Generic-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Grocery-Cashier/Grocery-Cashier.iml" filepath="$PROJECT_DIR$/Java-101/Grocery-Cashier/Grocery-Cashier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Harmonic-Mean/Harmonic-Mean.iml" filepath="$PROJECT_DIR$/Java-101/Harmonic-Mean/Harmonic-Mean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Harmonic-Series/Harmonic-Series.iml" filepath="$PROJECT_DIR$/Java-101/Harmonic-Series/Harmonic-Series.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Horoscope-Finder/Horoscope-Finder.iml" filepath="$PROJECT_DIR$/Java-101/Horoscope-Finder/Horoscope-Finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Hypotenuse-Calculator/Hypotenuse-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/Hypotenuse-Calculator/Hypotenuse-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Java-101.iml" filepath="$PROJECT_DIR$/Java-101/Java-101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Projects.iml" filepath="$PROJECT_DIR$/.idea/Java-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Leap-Year/Leap-Year.iml" filepath="$PROJECT_DIR$/Java-101/Leap-Year/Leap-Year.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Letter-B/Letter-B.iml" filepath="$PROJECT_DIR$/Java-101/Letter-B/Letter-B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Matrix-To-Transpose/Matrix-To-Transpose.iml" filepath="$PROJECT_DIR$/Java-101/Matrix-To-Transpose/Matrix-To-Transpose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Min-Max/Min-Max.iml" filepath="$PROJECT_DIR$/Java-101/Min-Max/Min-Max.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Min-Max-Index-Finder/Min-Max-Index-Finder.iml" filepath="$PROJECT_DIR$/Java-101/Min-Max-Index-Finder/Min-Max-Index-Finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Minesweeper/Minesweeper.iml" filepath="$PROJECT_DIR$/Java-101/Minesweeper/Minesweeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Number-Guess-Game/Number-Guess-Game.iml" filepath="$PROJECT_DIR$/Java-101/Number-Guess-Game/Number-Guess-Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Number-Pattern/Number-Pattern.iml" filepath="$PROJECT_DIR$/Java-101/Number-Pattern/Number-Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Number-Power-Finding/Number-Power-Finding.iml" filepath="$PROJECT_DIR$/Java-101/Number-Power-Finding/Number-Power-Finding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/Java-101/Palindrome/Palindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Palindromic-String/Palindromic-String.iml" filepath="$PROJECT_DIR$/Java-101/Palindromic-String/Palindromic-String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Perfect-Number/Perfect-Number.iml" filepath="$PROJECT_DIR$/Java-101/Perfect-Number/Perfect-Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Prime-Number/Prime-Number.iml" filepath="$PROJECT_DIR$/Java-101/Prime-Number/Prime-Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Recursive-Exponentiation/Recursive-Exponentiation.iml" filepath="$PROJECT_DIR$/Java-101/Recursive-Exponentiation/Recursive-Exponentiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Recursive-Prime-Number-Control/Recursive-Prime-Number-Control.iml" filepath="$PROJECT_DIR$/Java-101/Recursive-Prime-Number-Control/Recursive-Prime-Number-Control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Reverse-Sorting/Reverse-Sorting.iml" filepath="$PROJECT_DIR$/Java-101/Reverse-Sorting/Reverse-Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Reverse-Triangle/Reverse-Triangle.iml" filepath="$PROJECT_DIR$/Java-101/Reverse-Triangle/Reverse-Triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Salary-Calculator/Salary-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/Salary-Calculator/Salary-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Student-Information-System/Student-Information-System.iml" filepath="$PROJECT_DIR$/Java-101/Student-Information-System/Student-Information-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Sum-Of-Even-Numbers/Sum-Of-Even-Numbers.iml" filepath="$PROJECT_DIR$/Java-101/Sum-Of-Even-Numbers/Sum-Of-Even-Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Taxed-Price-Calculator/Taxed-Price-Calculator.iml" filepath="$PROJECT_DIR$/Java-101/Taxed-Price-Calculator/Taxed-Price-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/Taximeter/Taximeter.iml" filepath="$PROJECT_DIR$/Java-101/Taximeter/Taximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-101/User-Login/User-Login.iml" filepath="$PROJECT_DIR$/Java-101/User-Login/User-Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/book-list/book-list.iml" filepath="$PROJECT_DIR$/Java-102/book-list/book-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/book_sorter/book_sorter.iml" filepath="$PROJECT_DIR$/Java-102/book_sorter/book_sorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/fixture_generator/fixture_generator.iml" filepath="$PROJECT_DIR$/Java-102/fixture_generator/fixture_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/insurance-management-system/insurance-management-system.iml" filepath="$PROJECT_DIR$/Java-102/insurance-management-system/insurance-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/product-management-system/product-management-system.iml" filepath="$PROJECT_DIR$/Java-102/product-management-system/product-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-102/threads-race/threads-race.iml" filepath="$PROJECT_DIR$/Java-102/threads-race/threads-race.iml" />
+    </modules>
+  </component>
+</project>

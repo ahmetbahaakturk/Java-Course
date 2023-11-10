@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efc98bc7-f00f-4735-be02-bc520b826d7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Java-101/ATM/ATM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Advanced-Calculator/Advanced-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Air-Temperature-Activities/Air-Temperature-Activities.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Armstrong/Armstrong.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Array-Frequency/Array-Frequency.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Array-Sorting/Array-Sorting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/BMI-Calculator/BMI-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Boxing-Game/Boxing-Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Calculator/Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Chinese-Zodiac/Chinese-Zodiac.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Circle-Circumference-Area-Calculator/Circle-Circumference-Area-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Class-Pass/Class-Pass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Combination-Finder/Combination-Finder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Diamond-Shape/Diamond-Shape.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Duplicate-Numbers/Duplicate-Numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Exponentiation/Exponentiation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Fibonacci/Fibonacci.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Find-Even-Numbers/Find-Even-Numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Flight-Price/Flight-Price.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/GCD-ICM/GCD-ICM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/GPA-Calculator/GPA-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Grocery-Cashier/Grocery-Cashier.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Harmonic-Mean/Harmonic-Mean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Harmonic-Series/Harmonic-Series.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Horoscope-Finder/Horoscope-Finder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Hypotenuse-Calculator/Hypotenuse-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Leap-Year/Leap-Year.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Letter-B/Letter-B.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Matrix-To-Transpose/Matrix-To-Transpose.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Min-Max-Index-Finder/Min-Max-Index-Finder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Min-Max/Min-Max.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Minesweeper/Minesweeper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Number-Guess-Game/Number-Guess-Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Number-Pattern/Number-Pattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Number-Power-Finding/Number-Power-Finding.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Palindrome/Palindrome.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Palindromic-String/Palindromic-String.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Perfect-Number/Perfect-Number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Prime-Number/Prime-Number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Recursive-Exponentiation/Recursive-Exponentiation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Recursive-Prime-Number-Control/Recursive-Prime-Number-Control.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Reverse-Sorting/Reverse-Sorting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Reverse-Triangle/Reverse-Triangle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Salary-Calculator/Salary-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Student-Information-System/Student-Information-System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Sum-Of-Even-Numbers/Sum-Of-Even-Numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Taxed-Price-Calculator/Taxed-Price-Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/Taximeter/Taximeter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-101/User-Login/User-Login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/Adventure-Game/Adventure-Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/Generic-List/Generic-List.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/book-list/book-list.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/book_sorter/book_sorter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/fixture_generator/fixture_generator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/insurance-management-system/insurance-management-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-102/product-management-system/product-management-system.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2XqvemgCb4pFM31vFPP5G8i6Ddg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ahmet/OneDrive/Masaüstü/Desktop/Private-Project/JavaGUI",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efc98bc7-f00f-4735-be02-bc520b826d7f" name="Changes" comment="" />
+      <created>1699369521178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699369521178</updated>
+      <workItem from="1699369522455" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
