@@ -38,11 +38,21 @@ public class Main {
             Collections.rotate(teams.subList(1, n), 1);
         }
 
-        for (int i = 0, a = 0, b = 0; i < roundNum; ) {
+        int e = 0;
+        for (int i = 0, a = 0; i < roundNum / 2; ) {
+
             System.out.println("\n" + (++i) + ". Round");
-            for (int j = 0; j < matchPerRound; j++, a++) System.out.println(host[a] + " vs " + away[a]);
-            System.out.println("\n" + (++i) + ". Round");
-            for (int j = 0; j < matchPerRound; j++, b++) System.out.println(away[b] + " vs " + host[b]);
+            for (int j = 0; j < matchPerRound; j++, a++) {
+                System.out.println(host[a] + " vs " + away[a]);
+            }
+            e = i;
+        }
+
+        for (int i = 0, a = 0; i < roundNum / 2; i++) {
+            System.out.println("\n" + (++e) + ". Round");
+            for (int j = 0; j < matchPerRound; j++, a++) {
+                System.out.println(host[a] + " vs " + away[a]);
+            }
         }
     }
 }
